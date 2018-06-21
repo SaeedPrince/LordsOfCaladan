@@ -1,4 +1,4 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -103,6 +103,7 @@ protected: \
 	virtual ~IAdvancedFriendsInterface() {} \
 public: \
 	typedef UAdvancedFriendsInterface UClassType; \
+	typedef IAdvancedFriendsInterface ThisClass; \
 	static void Execute_OnPlayerLoginChanged(UObject* O, int32 PlayerNum); \
 	static void Execute_OnPlayerLoginStatusChanged(UObject* O, EBPLoginStatus PreviousStatus, EBPLoginStatus NewStatus, FBPUniqueNetId PlayerUniqueNetID); \
 	static void Execute_OnPlayerVoiceStateChanged(UObject* O, FBPUniqueNetId PlayerId, bool bIsTalking); \
@@ -116,6 +117,7 @@ protected: \
 	virtual ~IAdvancedFriendsInterface() {} \
 public: \
 	typedef UAdvancedFriendsInterface UClassType; \
+	typedef IAdvancedFriendsInterface ThisClass; \
 	static void Execute_OnPlayerLoginChanged(UObject* O, int32 PlayerNum); \
 	static void Execute_OnPlayerLoginStatusChanged(UObject* O, EBPLoginStatus PreviousStatus, EBPLoginStatus NewStatus, FBPUniqueNetId PlayerUniqueNetID); \
 	static void Execute_OnPlayerVoiceStateChanged(UObject* O, FBPUniqueNetId PlayerId, bool bIsTalking); \

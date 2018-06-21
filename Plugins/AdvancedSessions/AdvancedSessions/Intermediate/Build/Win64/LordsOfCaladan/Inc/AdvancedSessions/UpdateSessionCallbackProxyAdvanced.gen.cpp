@@ -1,4 +1,4 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -26,7 +26,7 @@ void EmptyLinkFunctionForGeneratedCodeUpdateSessionCallbackProxyAdvanced() {}
 	{
 		UClass* Class = UUpdateSessionCallbackProxyAdvanced::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
-			{ "UpdateSession", (Native)&UUpdateSessionCallbackProxyAdvanced::execUpdateSession },
+			{ "UpdateSession", &UUpdateSessionCallbackProxyAdvanced::execUpdateSession },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}

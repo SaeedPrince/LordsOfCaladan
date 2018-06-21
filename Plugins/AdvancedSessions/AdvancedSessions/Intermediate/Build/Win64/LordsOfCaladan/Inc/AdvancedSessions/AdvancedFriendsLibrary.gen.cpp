@@ -1,4 +1,4 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -33,12 +33,12 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedFriendsLibrary() {}
 	{
 		UClass* Class = UAdvancedFriendsLibrary::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
-			{ "GetFriend", (Native)&UAdvancedFriendsLibrary::execGetFriend },
-			{ "GetStoredFriendsList", (Native)&UAdvancedFriendsLibrary::execGetStoredFriendsList },
-			{ "GetStoredRecentPlayersList", (Native)&UAdvancedFriendsLibrary::execGetStoredRecentPlayersList },
-			{ "IsAFriend", (Native)&UAdvancedFriendsLibrary::execIsAFriend },
-			{ "SendSessionInviteToFriend", (Native)&UAdvancedFriendsLibrary::execSendSessionInviteToFriend },
-			{ "SendSessionInviteToFriends", (Native)&UAdvancedFriendsLibrary::execSendSessionInviteToFriends },
+			{ "GetFriend", &UAdvancedFriendsLibrary::execGetFriend },
+			{ "GetStoredFriendsList", &UAdvancedFriendsLibrary::execGetStoredFriendsList },
+			{ "GetStoredRecentPlayersList", &UAdvancedFriendsLibrary::execGetStoredRecentPlayersList },
+			{ "IsAFriend", &UAdvancedFriendsLibrary::execIsAFriend },
+			{ "SendSessionInviteToFriend", &UAdvancedFriendsLibrary::execSendSessionInviteToFriend },
+			{ "SendSessionInviteToFriends", &UAdvancedFriendsLibrary::execSendSessionInviteToFriends },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}

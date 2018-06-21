@@ -1,4 +1,4 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -244,5 +244,6 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 #define FOREACH_ENUM_STEAMAVATARSIZE(op) \
 	op(SteamAvatarSize::SteamAvatar_Small) \
-	op(SteamAvatarSize::SteamAvatar_Medium) 
+	op(SteamAvatarSize::SteamAvatar_Medium) \
+	op(SteamAvatarSize::SteamAvatar_Large) 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

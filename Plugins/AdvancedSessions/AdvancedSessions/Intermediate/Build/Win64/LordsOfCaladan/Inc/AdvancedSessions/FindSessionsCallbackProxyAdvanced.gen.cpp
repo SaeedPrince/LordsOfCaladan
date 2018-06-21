@@ -1,4 +1,4 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -30,8 +30,8 @@ void EmptyLinkFunctionForGeneratedCodeFindSessionsCallbackProxyAdvanced() {}
 	{
 		UClass* Class = UFindSessionsCallbackProxyAdvanced::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
-			{ "FilterSessionResults", (Native)&UFindSessionsCallbackProxyAdvanced::execFilterSessionResults },
-			{ "FindSessionsAdvanced", (Native)&UFindSessionsCallbackProxyAdvanced::execFindSessionsAdvanced },
+			{ "FilterSessionResults", &UFindSessionsCallbackProxyAdvanced::execFilterSessionResults },
+			{ "FindSessionsAdvanced", &UFindSessionsCallbackProxyAdvanced::execFindSessionsAdvanced },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}

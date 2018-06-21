@@ -1,4 +1,4 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -545,8 +545,8 @@ static struct FScriptStruct_AdvancedSteamSessions_StaticRegisterNativesFBPSteamW
 	{
 		UClass* Class = UAdvancedSteamWorkshopLibrary::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
-			{ "GetNumSubscribedWorkshopItems", (Native)&UAdvancedSteamWorkshopLibrary::execGetNumSubscribedWorkshopItems },
-			{ "GetSubscribedWorkshopItems", (Native)&UAdvancedSteamWorkshopLibrary::execGetSubscribedWorkshopItems },
+			{ "GetNumSubscribedWorkshopItems", &UAdvancedSteamWorkshopLibrary::execGetNumSubscribedWorkshopItems },
+			{ "GetSubscribedWorkshopItems", &UAdvancedSteamWorkshopLibrary::execGetSubscribedWorkshopItems },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}

@@ -1,4 +1,4 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -39,18 +39,18 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedIdentityLibrary() {}
 	{
 		UClass* Class = UAdvancedIdentityLibrary::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
-			{ "GetAllUserAccounts", (Native)&UAdvancedIdentityLibrary::execGetAllUserAccounts },
-			{ "GetLoginStatus", (Native)&UAdvancedIdentityLibrary::execGetLoginStatus },
-			{ "GetPlayerAuthToken", (Native)&UAdvancedIdentityLibrary::execGetPlayerAuthToken },
-			{ "GetPlayerNickname", (Native)&UAdvancedIdentityLibrary::execGetPlayerNickname },
-			{ "GetUserAccount", (Native)&UAdvancedIdentityLibrary::execGetUserAccount },
-			{ "GetUserAccountAccessToken", (Native)&UAdvancedIdentityLibrary::execGetUserAccountAccessToken },
-			{ "GetUserAccountAttribute", (Native)&UAdvancedIdentityLibrary::execGetUserAccountAttribute },
-			{ "GetUserAccountAuthAttribute", (Native)&UAdvancedIdentityLibrary::execGetUserAccountAuthAttribute },
-			{ "GetUserAccountDisplayName", (Native)&UAdvancedIdentityLibrary::execGetUserAccountDisplayName },
-			{ "GetUserAccountRealName", (Native)&UAdvancedIdentityLibrary::execGetUserAccountRealName },
-			{ "GetUserID", (Native)&UAdvancedIdentityLibrary::execGetUserID },
-			{ "SetUserAccountAttribute", (Native)&UAdvancedIdentityLibrary::execSetUserAccountAttribute },
+			{ "GetAllUserAccounts", &UAdvancedIdentityLibrary::execGetAllUserAccounts },
+			{ "GetLoginStatus", &UAdvancedIdentityLibrary::execGetLoginStatus },
+			{ "GetPlayerAuthToken", &UAdvancedIdentityLibrary::execGetPlayerAuthToken },
+			{ "GetPlayerNickname", &UAdvancedIdentityLibrary::execGetPlayerNickname },
+			{ "GetUserAccount", &UAdvancedIdentityLibrary::execGetUserAccount },
+			{ "GetUserAccountAccessToken", &UAdvancedIdentityLibrary::execGetUserAccountAccessToken },
+			{ "GetUserAccountAttribute", &UAdvancedIdentityLibrary::execGetUserAccountAttribute },
+			{ "GetUserAccountAuthAttribute", &UAdvancedIdentityLibrary::execGetUserAccountAuthAttribute },
+			{ "GetUserAccountDisplayName", &UAdvancedIdentityLibrary::execGetUserAccountDisplayName },
+			{ "GetUserAccountRealName", &UAdvancedIdentityLibrary::execGetUserAccountRealName },
+			{ "GetUserID", &UAdvancedIdentityLibrary::execGetUserID },
+			{ "SetUserAccountAttribute", &UAdvancedIdentityLibrary::execSetUserAccountAttribute },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}

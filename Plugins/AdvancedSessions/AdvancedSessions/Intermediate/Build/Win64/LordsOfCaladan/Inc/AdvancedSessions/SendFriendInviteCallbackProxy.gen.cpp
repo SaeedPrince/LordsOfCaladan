@@ -1,4 +1,4 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -42,7 +42,7 @@ void EmptyLinkFunctionForGeneratedCodeSendFriendInviteCallbackProxy() {}
 	{
 		UClass* Class = USendFriendInviteCallbackProxy::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
-			{ "SendFriendInvite", (Native)&USendFriendInviteCallbackProxy::execSendFriendInvite },
+			{ "SendFriendInvite", &USendFriendInviteCallbackProxy::execSendFriendInvite },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}

@@ -1,4 +1,4 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -155,7 +155,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 	op(FBPWorkshopFileType::k_EWorkshopFileTypeMerch) \
 	op(FBPWorkshopFileType::k_EWorkshopFileTypeControllerBinding) \
 	op(FBPWorkshopFileType::k_EWorkshopFileTypeSteamworksAccessInvite) \
-	op(FBPWorkshopFileType::k_EWorkshopFileTypeSteamVideo) 
+	op(FBPWorkshopFileType::k_EWorkshopFileTypeSteamVideo) \
+	op(FBPWorkshopFileType::k_EWorkshopFileTypeMax) 
 #define FOREACH_ENUM_FBPSTEAMRESULT(op) \
 	op(FBPSteamResult::k_EResultOK) \
 	op(FBPSteamResult::k_EResultFail) \
@@ -245,5 +246,6 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 	op(FBPSteamResult::k_EResultAccountLoginDeniedThrottle) \
 	op(FBPSteamResult::k_EResultTwoFactorCodeMismatch) \
 	op(FBPSteamResult::k_EResultTwoFactorActivationCodeMismatch) \
-	op(FBPSteamResult::k_EResultAccountAssociatedToMultiplePartners) 
+	op(FBPSteamResult::k_EResultAccountAssociatedToMultiplePartners) \
+	op(FBPSteamResult::k_EResultNotModified) 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,4 +1,4 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -39,22 +39,22 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedVoiceLibrary() {}
 	{
 		UClass* Class = UAdvancedVoiceLibrary::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
-			{ "GetNumLocalTalkers", (Native)&UAdvancedVoiceLibrary::execGetNumLocalTalkers },
-			{ "IsHeadsetPresent", (Native)&UAdvancedVoiceLibrary::execIsHeadsetPresent },
-			{ "IsLocalPlayerTalking", (Native)&UAdvancedVoiceLibrary::execIsLocalPlayerTalking },
-			{ "IsPlayerMuted", (Native)&UAdvancedVoiceLibrary::execIsPlayerMuted },
-			{ "IsRemotePlayerTalking", (Native)&UAdvancedVoiceLibrary::execIsRemotePlayerTalking },
-			{ "MuteRemoteTalker", (Native)&UAdvancedVoiceLibrary::execMuteRemoteTalker },
-			{ "RegisterAllLocalTalkers", (Native)&UAdvancedVoiceLibrary::execRegisterAllLocalTalkers },
-			{ "RegisterLocalTalker", (Native)&UAdvancedVoiceLibrary::execRegisterLocalTalker },
-			{ "RegisterRemoteTalker", (Native)&UAdvancedVoiceLibrary::execRegisterRemoteTalker },
-			{ "RemoveAllRemoteTalkers", (Native)&UAdvancedVoiceLibrary::execRemoveAllRemoteTalkers },
-			{ "StartNetworkedVoice", (Native)&UAdvancedVoiceLibrary::execStartNetworkedVoice },
-			{ "StopNetworkedVoice", (Native)&UAdvancedVoiceLibrary::execStopNetworkedVoice },
-			{ "UnMuteRemoteTalker", (Native)&UAdvancedVoiceLibrary::execUnMuteRemoteTalker },
-			{ "UnRegisterAllLocalTalkers", (Native)&UAdvancedVoiceLibrary::execUnRegisterAllLocalTalkers },
-			{ "UnRegisterLocalTalker", (Native)&UAdvancedVoiceLibrary::execUnRegisterLocalTalker },
-			{ "UnRegisterRemoteTalker", (Native)&UAdvancedVoiceLibrary::execUnRegisterRemoteTalker },
+			{ "GetNumLocalTalkers", &UAdvancedVoiceLibrary::execGetNumLocalTalkers },
+			{ "IsHeadsetPresent", &UAdvancedVoiceLibrary::execIsHeadsetPresent },
+			{ "IsLocalPlayerTalking", &UAdvancedVoiceLibrary::execIsLocalPlayerTalking },
+			{ "IsPlayerMuted", &UAdvancedVoiceLibrary::execIsPlayerMuted },
+			{ "IsRemotePlayerTalking", &UAdvancedVoiceLibrary::execIsRemotePlayerTalking },
+			{ "MuteRemoteTalker", &UAdvancedVoiceLibrary::execMuteRemoteTalker },
+			{ "RegisterAllLocalTalkers", &UAdvancedVoiceLibrary::execRegisterAllLocalTalkers },
+			{ "RegisterLocalTalker", &UAdvancedVoiceLibrary::execRegisterLocalTalker },
+			{ "RegisterRemoteTalker", &UAdvancedVoiceLibrary::execRegisterRemoteTalker },
+			{ "RemoveAllRemoteTalkers", &UAdvancedVoiceLibrary::execRemoveAllRemoteTalkers },
+			{ "StartNetworkedVoice", &UAdvancedVoiceLibrary::execStartNetworkedVoice },
+			{ "StopNetworkedVoice", &UAdvancedVoiceLibrary::execStopNetworkedVoice },
+			{ "UnMuteRemoteTalker", &UAdvancedVoiceLibrary::execUnMuteRemoteTalker },
+			{ "UnRegisterAllLocalTalkers", &UAdvancedVoiceLibrary::execUnRegisterAllLocalTalkers },
+			{ "UnRegisterLocalTalker", &UAdvancedVoiceLibrary::execUnRegisterLocalTalker },
+			{ "UnRegisterRemoteTalker", &UAdvancedVoiceLibrary::execUnRegisterRemoteTalker },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}

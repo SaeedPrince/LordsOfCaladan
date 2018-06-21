@@ -1,4 +1,4 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -32,13 +32,13 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedExternalUILibrary() {}
 	{
 		UClass* Class = UAdvancedExternalUILibrary::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
-			{ "CloseWebURLUI", (Native)&UAdvancedExternalUILibrary::execCloseWebURLUI },
-			{ "ShowAccountUpgradeUI", (Native)&UAdvancedExternalUILibrary::execShowAccountUpgradeUI },
-			{ "ShowFriendsUI", (Native)&UAdvancedExternalUILibrary::execShowFriendsUI },
-			{ "ShowInviteUI", (Native)&UAdvancedExternalUILibrary::execShowInviteUI },
-			{ "ShowLeaderBoardUI", (Native)&UAdvancedExternalUILibrary::execShowLeaderBoardUI },
-			{ "ShowProfileUI", (Native)&UAdvancedExternalUILibrary::execShowProfileUI },
-			{ "ShowWebURLUI", (Native)&UAdvancedExternalUILibrary::execShowWebURLUI },
+			{ "CloseWebURLUI", &UAdvancedExternalUILibrary::execCloseWebURLUI },
+			{ "ShowAccountUpgradeUI", &UAdvancedExternalUILibrary::execShowAccountUpgradeUI },
+			{ "ShowFriendsUI", &UAdvancedExternalUILibrary::execShowFriendsUI },
+			{ "ShowInviteUI", &UAdvancedExternalUILibrary::execShowInviteUI },
+			{ "ShowLeaderBoardUI", &UAdvancedExternalUILibrary::execShowLeaderBoardUI },
+			{ "ShowProfileUI", &UAdvancedExternalUILibrary::execShowProfileUI },
+			{ "ShowWebURLUI", &UAdvancedExternalUILibrary::execShowWebURLUI },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}

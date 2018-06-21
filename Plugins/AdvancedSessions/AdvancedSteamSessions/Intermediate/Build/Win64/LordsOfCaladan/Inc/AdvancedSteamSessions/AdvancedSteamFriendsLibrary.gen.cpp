@@ -1,4 +1,4 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -189,13 +189,13 @@ static struct FScriptStruct_AdvancedSteamSessions_StaticRegisterNativesFBPSteamG
 	{
 		UClass* Class = UAdvancedSteamFriendsLibrary::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
-			{ "CreateSteamIDFromString", (Native)&UAdvancedSteamFriendsLibrary::execCreateSteamIDFromString },
-			{ "GetFriendSteamLevel", (Native)&UAdvancedSteamFriendsLibrary::execGetFriendSteamLevel },
-			{ "GetSteamFriendAvatar", (Native)&UAdvancedSteamFriendsLibrary::execGetSteamFriendAvatar },
-			{ "GetSteamFriendGamePlayed", (Native)&UAdvancedSteamFriendsLibrary::execGetSteamFriendGamePlayed },
-			{ "GetSteamGroups", (Native)&UAdvancedSteamFriendsLibrary::execGetSteamGroups },
-			{ "GetSteamPersonaName", (Native)&UAdvancedSteamFriendsLibrary::execGetSteamPersonaName },
-			{ "RequestSteamFriendInfo", (Native)&UAdvancedSteamFriendsLibrary::execRequestSteamFriendInfo },
+			{ "CreateSteamIDFromString", &UAdvancedSteamFriendsLibrary::execCreateSteamIDFromString },
+			{ "GetFriendSteamLevel", &UAdvancedSteamFriendsLibrary::execGetFriendSteamLevel },
+			{ "GetSteamFriendAvatar", &UAdvancedSteamFriendsLibrary::execGetSteamFriendAvatar },
+			{ "GetSteamFriendGamePlayed", &UAdvancedSteamFriendsLibrary::execGetSteamFriendGamePlayed },
+			{ "GetSteamGroups", &UAdvancedSteamFriendsLibrary::execGetSteamGroups },
+			{ "GetSteamPersonaName", &UAdvancedSteamFriendsLibrary::execGetSteamPersonaName },
+			{ "RequestSteamFriendInfo", &UAdvancedSteamFriendsLibrary::execRequestSteamFriendInfo },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}

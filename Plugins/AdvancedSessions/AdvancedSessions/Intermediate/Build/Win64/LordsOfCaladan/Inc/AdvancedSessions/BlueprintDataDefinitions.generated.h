@@ -1,4 +1,4 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -63,7 +63,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	op(EOnlineComparisonOpRedux::NotEquals) \
 	op(EOnlineComparisonOpRedux::GreaterThan) \
 	op(EOnlineComparisonOpRedux::GreaterThanEquals) \
-	op(EOnlineComparisonOpRedux::LessThan) 
+	op(EOnlineComparisonOpRedux::LessThan) \
+	op(EOnlineComparisonOpRedux::LessThanEquals) 
 #define FOREACH_ENUM_EBPONLINESESSIONSTATE(op) \
 	op(EBPOnlineSessionState::NoSession) \
 	op(EBPOnlineSessionState::Creating) \
@@ -71,29 +72,37 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	op(EBPOnlineSessionState::Starting) \
 	op(EBPOnlineSessionState::InProgress) \
 	op(EBPOnlineSessionState::Ending) \
-	op(EBPOnlineSessionState::Ended) 
+	op(EBPOnlineSessionState::Ended) \
+	op(EBPOnlineSessionState::Destroying) 
 #define FOREACH_ENUM_EBPONLINEPRESENCESTATE(op) \
 	op(EBPOnlinePresenceState::Online) \
 	op(EBPOnlinePresenceState::Offline) \
 	op(EBPOnlinePresenceState::Away) \
 	op(EBPOnlinePresenceState::ExtendedAway) \
-	op(EBPOnlinePresenceState::DoNotDisturb) 
+	op(EBPOnlinePresenceState::DoNotDisturb) \
+	op(EBPOnlinePresenceState::Chat) 
 #define FOREACH_ENUM_EBPSERVERPRESENCESEARCHTYPE(op) \
 	op(EBPServerPresenceSearchType::AllServers) \
-	op(EBPServerPresenceSearchType::ClientServersOnly) 
+	op(EBPServerPresenceSearchType::ClientServersOnly) \
+	op(EBPServerPresenceSearchType::DedicatedServersOnly) 
 #define FOREACH_ENUM_EBLUEPRINTASYNCRESULTSWITCH(op) \
 	op(EBlueprintAsyncResultSwitch::OnSuccess) \
-	op(EBlueprintAsyncResultSwitch::AsyncLoading) 
+	op(EBlueprintAsyncResultSwitch::AsyncLoading) \
+	op(EBlueprintAsyncResultSwitch::OnFailure) 
 #define FOREACH_ENUM_EBLUEPRINTRESULTSWITCH(op) \
-	op(EBlueprintResultSwitch::OnSuccess) 
+	op(EBlueprintResultSwitch::OnSuccess) \
+	op(EBlueprintResultSwitch::OnFailure) 
 #define FOREACH_ENUM_ESESSIONSETTINGSEARCHRESULT(op) \
 	op(ESessionSettingSearchResult::Found) \
-	op(ESessionSettingSearchResult::NotFound) 
+	op(ESessionSettingSearchResult::NotFound) \
+	op(ESessionSettingSearchResult::WrongType) 
 #define FOREACH_ENUM_EBPLOGINSTATUS(op) \
 	op(EBPLoginStatus::NotLoggedIn) \
-	op(EBPLoginStatus::UsingLocalProfile) 
+	op(EBPLoginStatus::UsingLocalProfile) \
+	op(EBPLoginStatus::LoggedIn) 
 #define FOREACH_ENUM_EBPUSERPRIVILEGES(op) \
 	op(EBPUserPrivileges::CanPlay) \
 	op(EBPUserPrivileges::CanPlayOnline) \
-	op(EBPUserPrivileges::CanCommunicateOnline) 
+	op(EBPUserPrivileges::CanCommunicateOnline) \
+	op(EBPUserPrivileges::CanUseUserGeneratedContent) 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

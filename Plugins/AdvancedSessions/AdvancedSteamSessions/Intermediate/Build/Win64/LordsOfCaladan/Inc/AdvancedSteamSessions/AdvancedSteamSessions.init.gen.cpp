@@ -1,4 +1,4 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -25,7 +25,7 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSteamSessions_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/AdvancedSteamSessions",
 				PKG_CompiledIn | 0x00000000,
-				0x3848DD72,
+				0xA49D7DCB,
 				0x47EFB28F,
 				SingletonFuncArray, ARRAY_COUNT(SingletonFuncArray),
 				METADATA_PARAMS(nullptr, 0)
