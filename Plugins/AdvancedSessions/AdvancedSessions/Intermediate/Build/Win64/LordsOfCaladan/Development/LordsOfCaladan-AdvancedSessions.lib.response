@@ -1,8 +1,0 @@
-/NOLOGO
-/errorReport:prompt
-/MACHINE:x64
-/SUBSYSTEM:WINDOWS
-"D:\Projects\Unreal\LordsOfCaladan\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\LordsOfCaladan\Development\AdvancedSessions\Module.AdvancedSessions.cpp.obj"
-"D:\Projects\Unreal\LordsOfCaladan\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\LordsOfCaladan\Development\AdvancedSessions\Module.AdvancedSessions.gen.cpp.obj"
-"D:\Projects\Unreal\LordsOfCaladan\Intermediate\Build\Win64\LordsOfCaladan\Development\AdvancedSessions\PCLaunch.rc.res"
-/OUT:"D:\Projects\Unreal\LordsOfCaladan\Plugins\AdvancedSessions\AdvancedSessions\Binaries\Win64\LordsOfCaladan-AdvancedSessions.lib"

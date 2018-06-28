@@ -1,8 +1,0 @@
-/NOLOGO
-/errorReport:prompt
-/MACHINE:x64
-/SUBSYSTEM:WINDOWS
-"D:\Projects\Unreal\ThirdCodeSteam\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\ThirdCodeSteamServer\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.cpp.obj"
-"D:\Projects\Unreal\ThirdCodeSteam\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\ThirdCodeSteamServer\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.gen.cpp.obj"
-"D:\Projects\Unreal\ThirdCodeSteam\Intermediate\Build\Win64\ThirdCodeSteamServer\Development\AdvancedSteamSessions\PCLaunch.rc.res"
-/OUT:"D:\Projects\Unreal\ThirdCodeSteam\Plugins\AdvancedSessions\AdvancedSteamSessions\Binaries\Win64\ThirdCodeSteamServer-AdvancedSteamSessions.lib"

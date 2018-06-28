@@ -1,8 +1,0 @@
-/NOLOGO
-/errorReport:prompt
-/MACHINE:x64
-/SUBSYSTEM:WINDOWS
-"D:\Projects\Unreal\LordsOfCaladan\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\LordsOfCaladanServer\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.cpp.obj"
-"D:\Projects\Unreal\LordsOfCaladan\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\LordsOfCaladanServer\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.gen.cpp.obj"
-"D:\Projects\Unreal\LordsOfCaladan\Intermediate\Build\Win64\LordsOfCaladanServer\Development\AdvancedSteamSessions\PCLaunch.rc.res"
-/OUT:"D:\Projects\Unreal\LordsOfCaladan\Plugins\AdvancedSessions\AdvancedSteamSessions\Binaries\Win64\LordsOfCaladanServer-AdvancedSteamSessions.lib"
