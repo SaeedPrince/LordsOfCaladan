@@ -15,13 +15,18 @@ class LORDSOFCALADAN_API ABeastudioNavLinkProxy : public ANavLinkProxy
 {
 	GENERATED_BODY()
 
+
+public:
+	
+	ABeastudioNavLinkProxy();
+
+	UFUNCTION(BlueprintCallable, Category = "AI|Navigation")
+	void SetMyLinkData(const FVector& RelativeStart, const FVector& RelativeEnd, ENavLinkDirection::Type Direction);
+
 private:
 
 	UNavLinkCustomComponent* BeastudioLink;
 	
-public:
-	UFUNCTION(BlueprintCallable, Category = "AI|Navigation")
-	void SetMyLinkData(const FVector& RelativeStart, const FVector& RelativeEnd, ENavLinkDirection::Type Direction);
 
 
 };
