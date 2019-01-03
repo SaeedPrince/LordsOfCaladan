@@ -8,7 +8,7 @@ public class LordsOfCaladanTarget : TargetRules
 	public LordsOfCaladanTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-
+		bUsesSteam = true;
 		ExtraModuleNames.AddRange( new string[] { "LordsOfCaladan" } );
 	}
 }
