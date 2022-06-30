@@ -109,7 +109,7 @@ void UBeastudioStrategyCameraComponent::_InitialValues()
 			UMaterialInstanceDynamic* MyMaterialDynamic = CreateDefaultSubobject<UMaterialInstanceDynamic>(TEXT("MyMaterialDynamic"));
 			TargetMesh->SetMaterial(0, MyMaterialDynamic);
 			TargetMesh->SetCollisionProfileName(TEXT("NoCollision"));
-			TargetMesh->bVisible = false;
+			TargetMesh->SetVisibility(false);
 			if (TargetMesh != nullptr)
 			{
 				meshOk = true;
@@ -165,7 +165,7 @@ void UBeastudioStrategyCameraComponent::_SetTargetZ()
 {
 	FCollisionQueryParams RV_TraceParams = FCollisionQueryParams(FName(TEXT("RV_Trace")), false, nullptr);
 	RV_TraceParams.bTraceComplex = false;
-	RV_TraceParams.bTraceAsyncScene = true;
+	//RV_TraceParams.bTraceAsyncScene = true;
 	RV_TraceParams.bReturnPhysicalMaterial = false;
 	FHitResult RV_Hit(ForceInit);
 	FVector Start = FVector(TargetX, TargetY, TraceStartZ);

@@ -3,8 +3,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "AI/Navigation/NavLinkProxy.h"
-#include "AI/Navigation/NavLinkCustomComponent.h"
+#include "Navigation/NavLinkProxy.h"
+#include "NavLinkCustomComponent.h"
 #include "BeastudioNavLinkProxy.generated.h"
 
 /**
